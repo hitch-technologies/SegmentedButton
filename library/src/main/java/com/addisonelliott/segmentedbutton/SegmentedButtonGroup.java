@@ -874,8 +874,6 @@ public class SegmentedButtonGroup extends LinearLayout
 
         // Restore position of selected button
         final int position = bundle.getInt("position");
-        setPosition(position, false);
-
         super.onRestoreInstanceState(bundle.getParcelable("superState"));
     }
 
